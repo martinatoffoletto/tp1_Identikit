@@ -138,6 +138,10 @@ th {
   gap: 30px;
 }
 
+.trivia-questions button {
+  cursor: pointer;
+}
+
 .trivia-questions div {
   display: flex;
   flex-direction: column;
@@ -180,4 +184,10 @@ button:hover {
   align-items: center;
   height: 100vh;
   color: #721c24;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
